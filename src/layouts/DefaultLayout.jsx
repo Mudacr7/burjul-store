@@ -1,8 +1,8 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
-import Footer from '../components/layout/Footer'
+// import Footer from '../components/layout/Footer'
 import Sidebar from '../components/layout/Sidebar'
-import '../components/Home/home.css'
+import '../components/Dashboard/home.css'
 
 const DefaultLayout = () => {
   return (
@@ -12,9 +12,8 @@ const DefaultLayout = () => {
         <div className="home-content">
           <i className="bx bx-menu"></i>
         </div>
-      </section>
       <Outlet />
-      <Footer />
+      </section>
 
     </div>
   )

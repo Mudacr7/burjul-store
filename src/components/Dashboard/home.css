@@ -1,7 +1,7 @@
 .home-section {
     position: relative;
     background: #E4E9F7;
-    height: 100vh;
+    height: fit-content;
     left: 260px;
     width: calc(100% - 260px);
     transition: all 0.5s ease;
@@ -25,9 +25,11 @@
   }
   
   .home-section .home-content .bx-menu {
-    margin: 0 15px;
+    font-size: 30px;
+    margin: 0 10px;
+    position: fixed;
     cursor: pointer;
-  }
+}
   
   .home-section .home-content .text {
     font-size: 26px;
